@@ -20,7 +20,7 @@
         </div>
 
         <!-- Budget Cards -->
-        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div class="grid gap-4 md:grid-cols-2">
             <!-- Total Budget Card -->
             <div class="relative overflow-hidden rounded-xl border border-zinc-100 bg-white p-6 shadow-sm">
                 <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-blue-50 opacity-50"></div>
@@ -63,9 +63,9 @@
             </div>
         </div>
 
-        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-7">
+        <div class="grid gap-6 md:grid-cols-2 items-start">
             <!-- Upcoming Events (Left) -->
-            <x-ui.card class="col-span-4 border-2 border-zinc-100 shadow-none">
+            <x-ui.card class="border-2 border-zinc-100 shadow-none h-full">
                 <div class="p-6 pb-4 border-b border-zinc-50">
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap-2">
@@ -119,14 +119,14 @@
             </x-ui.card>
 
             <!-- Next Training (Right) -->
-            <div class="col-span-3">
+            <div>
                 <div
-                    class="relative overflow-hidden rounded-xl bg-gradient-to-br from-zinc-900 to-zinc-800 text-white shadow-xl">
+                    class="relative overflow-hidden rounded-xl bg-gradient-to-br from-zinc-900 to-zinc-800 text-white shadow-xl h-full">
                     <!-- Decor -->
                     <div class="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-white opacity-5 blur-3xl"></div>
                     <div class="absolute -left-10 bottom-0 h-32 w-32 rounded-full bg-pink-500 opacity-10 blur-2xl"></div>
 
-                    <div class="p-6 relative">
+                    <div class="p-6 relative flex flex-col h-full justify-between">
                         <div class="flex items-center justify-between mb-6">
                             <h3 class="font-bold flex items-center gap-2">
                                 <span class="animate-pulse">🔥</span> Latihan Berikutnya
